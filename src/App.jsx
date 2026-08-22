@@ -7,7 +7,9 @@ import Create_account from "./pages/Create_account"
 import Cart from "./pages/Cart"
 import Profile from "./pages/Profile"
 import Checkout from "./pages/Checkout"
-
+import About from "./pages/About"
+import Contact from "./pages/Contact"
+import Order from "./pages/Order"
 
 function App() {
 
@@ -23,6 +25,9 @@ function App() {
   <Route path="/cart" element={<Cart/>}/>
  <Route path="/profile" element={<Profile />} />
   <Route path="/Checkout" element={<Checkout/>}/>
+  <Route path="/about" element={<About/>}/>
+  <Route path="/contact" element={<Contact/>}/>
+  <Route path="/order" element={<Order/>}/>
      </Routes>
 
     </BrowserRouter>

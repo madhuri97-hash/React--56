@@ -20,17 +20,17 @@ function Navbar() {
               Home
             </Link>
 
-            <a href="#" className="hover:text-green-600 transition">
-              About
-            </a>
+             <Link to="/about" className="hover:text-green-600 transition">
+            About
+          </Link>
 
             <Link to="/product" className="hover:text-green-600 transition">
               Product
             </Link>
 
-            <a href="#" className="hover:text-green-600 transition">
-              Contact
-            </a>
+            <Link to="/contact" className="hover:text-green-600 transition">
+            Contact
+          </Link>
           </div>
        {localStorage.getItem("userToken") ?
        <div className="flex items-center gap-6">
