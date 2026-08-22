@@ -1,0 +1,28 @@
+{
+  "fruits": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6",
+      "price": 280
+    },
+    {
+      "id": 2,
+      "name": "Grapes",
+      "image": "https://images.unsplash.com/photo-1537640538966-79f369143f8f",
+      "price": 280
+    },
+    {
+      "id": 3,
+      "name": "Orange",
+      "image": "https://images.unsplash.com/photo-1547514701-42782101795e",
+      "price": 160
+    },
+    {
+      "id": 4,
+      "name": "Papaya",
+      "image": "https://images.unsplash.com/photo-1526318472351-c75fcf070305",
+      "price": 80
+    }
+  ]
+}
